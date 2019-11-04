@@ -1,0 +1,21 @@
+#task-list{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#title{
+    text-align: center;
+    font-size: 60px;
+    color: aquamarine;
+}
+
+.task-input{
+    width: 500px;
+}
+#result{
+    border-style: solid;
+    border-color: blue;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+}

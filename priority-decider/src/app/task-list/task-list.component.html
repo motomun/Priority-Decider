@@ -1,0 +1,31 @@
+<p id="title">
+  優先順位付け
+</p>
+
+<div id="task-list">
+  取り掛かるタスク
+  <form [formGroup]="taskList" (ngSubmit)="onSubmit()">
+    <div>
+      <input type="text" formControlName="task1" class="task-input">
+    </div>
+    <div>
+      <input type="text" formControlName="task2" class="task-input">
+    </div>
+    <div>
+      <input type="text" formControlName="task3" class="task-input">
+    </div>
+    <input type="submit" value="判断">
+  </form>
+</div>
+
+<div id="result">
+  <div>
+    <label>最初に、 {{firstTask}} をしてください。</label>
+  </div>
+  <div>
+    <label>2番目に、 {{secondTask}} をしてください。</label>
+  </div>
+  <div>
+    <label>3番目に、 {{thirdTask}} をしてください。</label>
+  </div>
+</div>
